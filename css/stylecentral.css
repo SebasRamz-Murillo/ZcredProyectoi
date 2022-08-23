@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited{
+  background-color: #1e366a ;
+  border-color: #1e366a ;
+}
+:root {
+  --offcanvas-width: 300px;
+  --topNavbarHeight: 56px;
+}
+.sidebar-nav{
+  width: var(--offcanvas-width);
+}
+@media (min-width: 992px){
+  body{
+    overflow: auto;
+  }
+  main {
+    margin-left: var(--offcanvas-width);
+  }
+.sidebar-nav{
+  transform: none;
+  visibility: visible !important;
+  top:var(--topNavbarHeight);
+  height: calc(100% - var(--topNavbarHeigh));
+}  
+}
+/*nav*/
+.naved{
+  height: 60px;
+ background-color: #212529;  
+}
+.color-log{
+  color: #fff;
+}
+/*modal*/
+.modal-body{
+  margin-bottom: 0% auto;
+  /*margin-top:15%;*/
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 0%;
+}
+.modal-button{
+  display: block;
+  margin: 0px auto;
+}
+.modal-logo{
+  display: block;
+  padding-bottom: 0% auto;
+  margin: 0px auto;
+}
+.img-modal{
+  width: 30%; align-items:center;display: block;align-content: center;margin: 0px auto; padding-top:10px;
+}
+.modal-titulo{
+  text-align: center;
+  font-family: "Lato",sans-serif;
+  size: 20px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+  }
+
+ /*COLORES 
+ AZUL 1e366a
+ AZUL PERO EN RGB rgb(30, 54, 106)
+
+ font-family: 'Cairo', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sora', sans-serif;
+ */
