@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited{
+  background-color: #1e366a ;
+  border-color: #1e366a ;
+}
+:root {
+  --offcanvas-width: 300px;
+  --topNavbarHeight: 56px;
+}
+.colornav{
+    background-color: #212529;
+}
+.sidebar-nav{
+  width:  var(--offcanvas-width);
+  width: var(--offcanvas-width);
+}
+@media (min-width: 992px){
+    body{
+      overflow: auto;
+    }
+    main {
+      margin-left: var(--offcanvas-width);
+    }
+}
+/*
+MAS COSAS (TABLAS)
+*/
+#tabla-precios {
+  display:inline-block;
+  width:100%;
+  margin-top:50px
+ }
+ /*Columnas*/
+
+ .precio-col {
+  display:inline-block;
+  background-color:#f3f3f3;
+  width:100%;
+  max-width:500px;
+  border-radius:10px;
+  margin-bottom:50px;
+  box-shadow: 0px 2px 5px #ddd
+ }
+
+ @media screen and (min-width:768px) {
+  .precio-col {
+  width:32%;
+  float:left;
+  margin-right:2%
+  }
+  .precio-col:last-child {
+  margin-right:0
+  }
+ }
+
+ /*Headers*/
+
+ .precio-col-header {
+  background-color:#333;
+  padding:20px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px
+ }
+
+ .precio-col:nth-child(2) .precio-col-header {
+  background-color:#1e366a
+ }
+
+ .precio-col-header h3 {
+  color:#f3f3f3;
+  text-align:center;
+  font-size:30px;
+  font-weight:600;
+  margin-bottom:0
+ }
+
+ .precio-col-header p {
+  text-align:center;
+  color:#f3f3f3;
+  font-size:14px;
+  margin-bottom:0
+ }
+
+ /*Características*/
+
+ .precio-col-features {
+  padding: 0 20px 20px 20px
+ }
+
+ .precio-col-features p {
+  padding:20px 0;
+  margin:0;
+  text-align:center;
+  border-top:1px solid #ddd
+ }
+
+ .precio-col-features p:first-child,
+ .precio-col-features p:last-child {
+  border-top:none
+ }
+
+ /*Comprar*/
+ .precio-col-comprar {
+  padding:10px;
+  max-width:250px;
+  text-align:center;
+  background-color:#fff;
+  margin: 0 auto 20px;
+  border-radius:10px;
+  border: 2px solid #1e366a;
+  transition: all 0.3s;
+ }
+
+
+ .LetraPrecio{
+	font-family: "Lato",sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+    color: #fff;
+}
+.Mes{
+	font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+    color: #fff;
+}
+.signo{
+	display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+    color: #fff;
+}
+ /*MAS COSAS (TABLAS)*/
+ .Letra{
+  font-family: 'Roboto', sans-serif;
+ }
+ .letra_sepa{
+  margin-top: 60px;
+ }
+
+ .visible {
+  visibility: visible !important;
+}
+.Letracontratar{
+  color:#1e366a;
+  font-size:18px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.contenido button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textdeco{
+  text-decoration: none;
+}
+.body{
+  padding-left: 225px;
+  top: 80px;
+}
+
+.LadoIz{
+  margin-left: -95px;
+}
+.btniz{
+  margin-right: 15px;
+}
+.conttabla{
+  width: 80%;
+  margin:0% auto;
+  offset-position: 1;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+ /*COLORES 
+ AZUL 1e366a
+ negro 212529
+ AZUL PERO EN RGB rgb(30, 54, 106)
+ font-family: 'Cairo', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sora', sans-serif;
+ */

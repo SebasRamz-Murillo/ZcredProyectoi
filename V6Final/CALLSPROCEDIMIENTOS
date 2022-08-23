@@ -1,0 +1,22 @@
+------------------------FILTRAR ROUTERS-------------------
+call filtrarRouPMod('');
+call filtrarRouPMar('');
+call filtrarRouPEsta('');/* Valores: ASIGNADO - SIN USAR*/
+
+-----------------------FILTRAR RADIOS---------------------
+call filtrarRadPMod('');
+call filtrarRadPMar('');
+call filtrarRadPEsta('');/* Valores: ASIGNADO - SIN USAR*/
+
+----------------------
+
+
+
+
+
+
+
+
+
+
+

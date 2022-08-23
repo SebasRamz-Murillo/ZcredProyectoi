@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+#sidebar-container {
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: auto;
+    margin-right: 170vh; 
+    padding-left: 25px;
+    padding-top: 20px;
+    display: flex;
+    float: inline-start;
+    float:left;
+}
+#sidebar-container .menu{
+    width: 16rem;
+}
+.stat {
+    border-right: 1px solid grey;
+}
+@media (max-width: 768px) {
+    #sidebar-container {
+      display: none;
+    }
+    .stat {
+        border: 0;
+    }
+  }
+#sidebar-container .menu a{
+    text-decoration: none;
+}
+.container-form{
+    padding-left: 40px;
+}
+.content{
+    overflow-y: auto;
+    height:100vh;
+    padding-bottom: 5rem;
+    display: flex;
+    float: inline-end;
+    float: right;
+}

@@ -1,0 +1,18 @@
+.intro {
+    height: 300%;
+  }
+  
+  body {
+    /* fallback for old browsers */
+    background: #3d3d3d;
+  }
+  .btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited{
+  background-color: #1e366a ;
+  border-color: #1e366a ;
+}
+
+
+   
